@@ -1,0 +1,21 @@
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+Plug 'yianwillis/vimcdoc'
+Plug 'junegunn/vim-easy-align'
+
+Plug 'preservim/nerdtree'
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/quickmenu.vim'
+Plug 'skywind3000/vim-auto-popmenu'
+Plug 'skywind3000/vim-dict'
+
+Plug 'ycm-core/YouCompleteMe'
+
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
