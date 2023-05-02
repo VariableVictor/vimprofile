@@ -9,7 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'skywind3000/asyncrun.vim'
 Plug 'skywind3000/quickmenu.vim'
-Plug 'skywind3000/vim-auto-popmenu'
+"Plug 'skywind3000/vim-auto-popmenu'
 Plug 'skywind3000/vim-dict'
 
 Plug 'ycm-core/YouCompleteMe'

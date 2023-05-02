@@ -9,6 +9,7 @@ endif
 set nocompatible #不要vim模仿vi模式，建议设置，否则会有很多不兼容的问题
 #filetype off #下方filetype plugin indent on已经设置，无需重复
 
+#g:ycm_key_list_stop_completion = ['<C-y>']
 if (g:iswindows == 1)
     plug#begin('$VIM/plug')
     source $VIM/vimplug.vim
@@ -18,11 +19,15 @@ else
 endif
 plug#end()
 
+#you complete me
 g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+g:ycm_key_list_select_completion = ['<Down>']
 
 
 
-g:apc_enable_ft = {'text': 1, 'markdown': 1, 'php': 1}
+
+#g:apc_enable_ft = {'text': 1, 'markdown': 1, 'php': 1}
+g:apc_enable_tab = 0
 
 set cpt=.,k,w,b
 set completeopt=menu,menuone,noselect
