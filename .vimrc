@@ -19,15 +19,17 @@ else
 endif
 plug#end()
 
+#LeaderF
+noremap <F2> :LeaderfFunction!<cr>
 #you complete me
 g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 g:ycm_key_list_select_completion = ['<Down>']
 
 
 
-
+#apc
 #g:apc_enable_ft = {'text': 1, 'markdown': 1, 'php': 1}
-g:apc_enable_tab = 0
+#g:apc_enable_tab = 0
 
 set cpt=.,k,w,b
 set completeopt=menu,menuone,noselect
